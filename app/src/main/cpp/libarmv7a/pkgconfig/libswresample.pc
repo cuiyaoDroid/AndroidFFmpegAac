@@ -1,0 +1,14 @@
+prefix=./android/armv7-a-vfp
+exec_prefix=${prefix}
+libdir=./android/armv7-a-vfp/lib
+includedir=./android/armv7-a-vfp/include
+
+Name: libswresample
+Description: FFmpeg audio resampling library
+Version: 3.0.101
+Requires: libavutil >= 56.5.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lswresample -lm
+Libs.private: 
+Cflags: -I${includedir}

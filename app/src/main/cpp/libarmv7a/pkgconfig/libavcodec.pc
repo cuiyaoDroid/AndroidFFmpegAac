@@ -1,0 +1,14 @@
+prefix=./android/armv7-a-vfp
+exec_prefix=${prefix}
+libdir=./android/armv7-a-vfp/lib
+includedir=./android/armv7-a-vfp/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 58.6.103
+Requires: libavutil >= 56.5.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavcodec -pthread -lm
+Libs.private: 
+Cflags: -I${includedir}
