@@ -8,3 +8,5 @@ android ffmpeg aac recoder and player
 arm64-v8a : android_config_arm64_v8a.sh
 
 armeabi-v7a : android_config_armeabi_v7a.sh
+
+https://www.jianshu.com/p/e76e8fc8e29b
